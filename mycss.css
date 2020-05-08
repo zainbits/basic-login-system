@@ -1,0 +1,10 @@
+.nav-bar	 {
+	display: inline-block;
+}
+
+li {
+	display: inline;
+}
+form {
+	display: inline;
+}
