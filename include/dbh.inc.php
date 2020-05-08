@@ -2,8 +2,8 @@
 
 	$servername = "localhost";
 	$dBUsername = "root";
-	$dBPassword = "MALWARE@v11";
-	$dBName = "login_users_info";
+	$dBPassword = "";
+	$dBName = "basic-login-system-db";
 
 	$conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
