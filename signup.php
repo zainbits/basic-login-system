@@ -9,10 +9,10 @@
  				if ($_GET["usererror"] == "usertaken") {
  					echo '<h2>Sign up failed!!<br> Username already exist</h2>';
  				}
- 			}
  			else if ($_GET["signup"] == "success") {
  				echo '<h2> Signup Successfull</h2>';
  			}
+ 		}
  		 ?>
  		<form action="include/signup.inc.php" method="post">
  			<input type="text" name="uid" placeholder="Username">
