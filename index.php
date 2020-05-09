@@ -1,18 +1,20 @@
 <?php 
-	require "header.php";
- ?>
+require "header.php";
+?>
 
- 	<main>
- 		<?php 
- 			if (isset($_SESSION['userid'])) {
- 				echo '<p>you are logged in</p>';
- 			}
- 			else {
- 				echo '<p>you are logged out</p>';
- 			}
- 		 ?>
- 	</main>
+<main>
+	<div class="centered zbox">
+		<?php 
+		if (isset($_SESSION['userid'])) {
+			echo '<p>you are logged in</p>';
+		}
+		else {
+			echo '<p>you are logged out</p>';
+		}
+		?>
+	</div>
+</main>
 
-<!-- <?php 
-	require "footer.php";
- ?> -->
+<?php 
+require "footer.php";
+?> 

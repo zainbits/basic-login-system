@@ -1,10 +1,14 @@
-.nav-bar	 {
-	display: inline-block;
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: -220px;
 }
 
-li {
-	display: inline;
-}
-form {
-	display: inline;
+.zbox {
+	border-style: solid;
+	border-width: 20px;
+	padding: 100px;
+	font-size: 2em;
 }
